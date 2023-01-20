@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({text, onClick, changeValue}) => {
   return (
-    <button>{text}</button>
+    <button onClick={() => onClick(changeValue)}>{text}</button>
   )
 }
 
