@@ -2,21 +2,22 @@ import React from 'react';
 import castle from '../../resources/castle.jpg';
 import './style.css';
 
+
 const Home = ({signedIn, userName}) => {
     return (
-        <div>
-            <h1>Home</h1>
-            <h2>{signedIn ? `Hello, ${userName}` : 'Hello!'}</h2>
+        <div id = "wholePage">
+            <h1 className= "header">Welcome</h1>
+            <h2 className='header'>{signedIn ? `Hello, ${userName}` : 'Hello!'}</h2>
 
             {!signedIn && (
-                <img
+                <img className='header'
                     id='castlePicture'
                     src={castle}
                     alt='castle'
                 />
             )}
             {signedIn && (
-                <p>
+                <p className='info'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation

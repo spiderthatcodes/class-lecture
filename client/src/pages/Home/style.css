@@ -1,4 +1,42 @@
+
+/* #wholePage{
+    background-color: aliceblue;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+} */
+
+
 #castlePicture {
-    height: 20vh;
-    width: auto;
+    height: 55vh;
+    width: 30vw;
+    margin-left: 18%;
+    border:2px solid;
 }
+
+.header{
+position: relative;
+bottom: 250px;
+text-align: center;
+font-family: 'Juice ITC';
+letter-spacing: 6px;
+font-size: 42px;
+color: purple;
+background-color: #c5d7e7;
+}
+
+
+/* .navBar{
+
+    font-size: 24px;
+    font-family: 'Juice ITC';
+    letter-spacing: 6px;
+      
+  }
+
+  .signButton{
+      border-radius: 5px;
+      
+  } */
+
+

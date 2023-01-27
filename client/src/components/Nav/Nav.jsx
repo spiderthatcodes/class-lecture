@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Card from '../Card/Card';
+import Modal from '../Modal/Modal';
 import Button from '../Button/Button';
+import './style.css'
 
 const Nav = ({
     userName,
@@ -24,23 +25,23 @@ const Nav = ({
     };
 
     return (
-        <div>
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
+        <div id = "navBar">
+            <Link className = "navLink" to='/'>Home</Link>
+            <Link className = "navLink"to='/about'>About</Link>
 
             {showModal && (
-                <Card
+                <Modal
                     userName={userName}
                     setUserName={setUserName}
                     setShowModal={setShowModal}
                 />
             )}
-            <Button
+            <Button className = "navLink"
                 text='Sign In'
                 onClick={setShowModal}
                 changeValue={true}
             />
-            <Button
+            <Button className = "navLink"
                 text='Sign Out'
                 onClick={signOut}
             />

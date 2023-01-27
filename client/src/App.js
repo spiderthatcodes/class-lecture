@@ -9,9 +9,9 @@ function App() {
     const [showModal, setShowModal] = useState(false);
     const [signedIn, setSignedIn] = useState(false);
     return (
-        <>
+        <div id = "wholePage">
             <Router>
-                <Nav
+                <Nav id= "navBar"
                     userName={userName}
                     showModal={showModal}
                     setShowModal={setShowModal}
@@ -23,7 +23,7 @@ function App() {
                     <Route
                         path='/'
                         element={
-                            <Home
+                            <Home 
                                 userName={userName}
                                 signedIn={signedIn}
                             />
@@ -40,7 +40,7 @@ function App() {
                     />
                 </Routes>
             </Router>
-        </>
+        </ div>
     );
 }
 

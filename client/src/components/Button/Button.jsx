@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './style.css'
 const Button = ({text, onClick, changeValue}) => {
   return (
-    <button onClick={() => onClick(changeValue)}>{text}</button>
+    <button className = "signButton" onClick={() => onClick(changeValue)}>{text}</button>
   )
 }
 

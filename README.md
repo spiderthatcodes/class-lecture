@@ -1,6 +1,8 @@
 # In Class Lecture
 This is a coding project we completed during a series of class lectures. Below are the goals of the project.
 
+- Note: The styling for this project was entirely performed by Corina Ek. 
+
 ## Week One
 
 - React app with two pages
