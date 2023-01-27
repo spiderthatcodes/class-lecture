@@ -31,8 +31,12 @@ This is a coding project we completed during a series of class lectures. Below a
         - Requires mock database
     - Page link should only show up when signed in
     - Send user data with params
-- Contact
-    - Form to email company
+- User
+    - Render the users from the mock database
+    - Add a search bar
+        - Takes in a string
+        - Searches users with matching username
+        - Renders only the users with usernames that match the query
 - Nav
     - Add password authentication to sign in
         - Only works with mock database
