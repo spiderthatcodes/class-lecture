@@ -2,16 +2,16 @@
     height: 55vh;
     width: 30vw;
     margin-left: 18%;
-    border:2px solid;
+    border: 2px solid;
 }
 
-.header{
-position: relative;
-bottom: 250px;
-text-align: center;
-font-family: 'Juice ITC';
-letter-spacing: 6px;
-font-size: 42px;
-color: purple;
-background-color: #c5d7e7;
+.header {
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+    font-family: 'Juice ITC';
+    letter-spacing: 6px;
+    font-size: 42px;
+    color: purple;
+    background-color: #c5d7e7;
 }
