@@ -39,6 +39,8 @@ This is a coding project we completed during a series of class lectures. Below a
         - Takes in a string
         - Searches users with matching username
         - Renders only the users with usernames that match the query
+
+## Week Three
 - Nav
     - Add password authentication to sign in
         - Only works with mock database
