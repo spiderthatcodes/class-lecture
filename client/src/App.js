@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Nav from './components/Nav/Nav';
+import UserList from './pages/UserList/UserList';
+import Profile from './pages/Profile/Profile';
 
 function App() {
     const [userName, setUserName] = useState('');
@@ -36,6 +38,18 @@ function App() {
                                 userName={userName}
                                 signedIn={signedIn}
                             />
+                        }
+                    />
+                    <Route
+                        path='/users'
+                        element={
+                            <UserList />
+                        }
+                    />
+                    <Route
+                        path='/profile'
+                        element={
+                            <Profile />
                         }
                     />
                 </Routes>
